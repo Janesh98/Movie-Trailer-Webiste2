@@ -1,3 +1,3 @@
 # Movie Trailer Website
 
-To run download all files and open index.html file.
+Visit site at https://janesh98.github.io/Movie-Trailer-Website/
