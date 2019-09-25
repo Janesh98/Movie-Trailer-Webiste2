@@ -61,7 +61,7 @@
         // Start playing the video whenever the trailer modal is opened
         $(document).on('click', '.movie-tile', function (event) {
             var trailerYouTubeId = $(this).attr('data-trailer-youtube-id')
-            var sourceUrl = 'http://www.youtube.com/embed/' + trailerYouTubeId + '?autoplay=1&html5=1';
+            var sourceUrl = 'https://www.youtube.com/embed/' + trailerYouTubeId + '?autoplay=1&html5=1';
             $("#trailer-video-container").empty().append($("<iframe></iframe>", {
               'id': 'trailer-video',
               'type': 'text-html',
@@ -115,7 +115,7 @@
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="g8evyE9TuYk" data-toggle="modal" data-target="#trailer">
-    <img src="http://www.movienewsletters.net/photos/117274R1.jpg" width="220" height="342">
+    <img src="https://www.movienewsletters.net/photos/117274R1.jpg" width="220" height="342">
     <h2>Batman: The Dark Knight Rises</h2>
 </div>
 
